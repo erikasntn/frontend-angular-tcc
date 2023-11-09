@@ -1,8 +1,57 @@
 .background {
-
   background-color: #CADDFF;
+  width: 100%;
+  height: 120vh;
 }
 
 .paragrafo {
   color: black;
+  font-family: "Poppins", sans-serif;
+  left: 5%;
+  position: absolute;
+  top: 10%;
+  font-size: 4vw;
+}
+
+img {
+  left: 5%;
+  top: 25%;
+  position: absolute;
+  max-width: 90%;
+}
+
+.fundo-fosco {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  width: 25%;
+  height: 50vh;
+  top: 40%;
+  left: 60%;
+  border-radius: 2rem;
+}
+
+/* Consultas de mídia para dispositivos móveis */
+@media screen and (max-width: 768px) {
+
+  .background {
+    background-color: #CADDFF;
+    width: 100%;
+    height: 150vh;
+  }
+
+  .paragrafo {
+    top: 15%;
+    font-size: 8vw;
+  }
+
+  img {
+    top: 20%;
+  }
+
+  .fundo-fosco {
+    width: 80%;
+    height: 50vh;
+    top: 100%;
+    left: 2.75rem;
+  }
 }
